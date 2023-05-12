@@ -1,0 +1,46 @@
+
+#header/*, #footer*/{
+    background: #1F2937;
+    border: 3px dashed hotpink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*padding: 0px 200px 0px 200px;*/
+}
+
+#logo-pic{
+    height: 50px;
+}
+
+#side-picture-question{
+    padding-top: 65px;
+    display: flex;
+    font: 900 30px "Roboto", sans-serif;
+    color: #F9FAF8;
+}
+
+#side-picture-picture{
+    display: flex;
+
+    height: 120px;
+    width: 260px;
+}
+
+button{
+    background: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
