@@ -1,34 +1,31 @@
 
-#header/*, #footer*/{
+#header, #footer{
     background: #1F2937;
-    border: 3px dashed hotpink;
+    color: #E5E7EB;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /*padding: 0px 200px 0px 200px;*/
 }
 
-#logo-pic{
-    height: 50px;
+#side{
+    /*display: flex;*/
+    float: left;
+}
+
+#side-picture{
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #side-picture-question{
-    padding-top: 65px;
-    display: flex;
     font: 900 30px "Roboto", sans-serif;
     color: #F9FAF8;
 }
 
-#side-picture-picture{
-    display: flex;
-
-    height: 120px;
-    width: 260px;
-}
-
 button{
     background: #3882F6;
-    border-radius: 5px;
+    border-radius: 3px;
     color: #F9FAF8;
 }
 
@@ -42,5 +39,38 @@ ul{
 
 a{
     text-decoration: none;
+    color: #E5E7EB;
+}
+
+.sub-pic{
+    border: 3px solid hotpink;
+    height: 120px;
+    width: 120px;
+}
+
+#quote-author{
+    float: right;
+    padding-right: 200px;
+}
+
+#quote{
+    background: #E5E7EB;
+    padding: 100px;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+#sign-up-button{
+    float: right;
+}
+
+#cta{
+    /*display: flex;*/
+    justify-content: space-between;
+    background-color: #3882F6;
     color: #F9FAF8;
+    margin:100px;
+    padding:20px;
 }
