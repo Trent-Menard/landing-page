@@ -7,15 +7,21 @@
     align-items: center;
 }
 
+body{
+    padding: 0; /* Fill screen sides */
+    margin: 0; /* Fill screen sides */
+}
+
 #side{
-    /*display: flex;*/
-    float: left;
+    gap: 20px;
+    padding:20px;
+    background: #1F2937;
 }
 
 #side-picture{
-    padding-top: 65px;
-    display: flex;
-    justify-content: space-between;
+    margin-left: 420px;
+    margin-top: -120px;
+    float: left;
 }
 
 #side-picture-question{
@@ -27,6 +33,7 @@ button{
     background: #3882F6;
     border-radius: 3px;
     color: #F9FAF8;
+    float: left;
 }
 
 ul{
@@ -68,9 +75,14 @@ a{
 
 #cta{
     /*display: flex;*/
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #3882F6;
     color: #F9FAF8;
     margin:100px;
-    padding:20px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.cta-text{
+    /*text-align: center;*/
 }
